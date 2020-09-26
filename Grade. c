@@ -1,5 +1,5 @@
 #include<stdio.h>
-void main() 
+main() 
 {
 int mrk;
 printf("Enter marks:") ;
@@ -27,5 +27,5 @@ printf("Grade:F") ;
 else{
 printf("Enter valid marks") ;
 }
-return 0;
+
 }
