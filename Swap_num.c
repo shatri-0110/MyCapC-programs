@@ -1,11 +1,22 @@
-#include<stdio.h>
-void main() 
+// C program to swap two numbers
+
+#include<stdio.h>  // Header file
+
+void main()        // Creating a void fuction 
 {
-int x, y, temp;
+ 
+int x, y, temp;    // Declaring variables
+  
 printf("Enter two numbers to be swapped:") ;
-scanf("%d %d", &x, &y) ;
-temp=x;
+  
+scanf("%d %d", &x, &y) ;     // Taking input
+  
+temp=x;       // swap started
+  
 x=y;
-y=temp;
-printf("The swapped numbers are: %d %d",x,y) ;
+  
+y=temp;      // swap finished
+  
+printf("The swapped numbers are: %d %d",x,y) ;   // Printing out swaped numbers
+  
 }
